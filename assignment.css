@@ -12,4 +12,14 @@
 }
 
 /* Add your CSS styles below this line */
+p:hover {
+    background-color: red;
+    font-style: italic;
 
+}
+a {
+    background-color: red;
+}
+p:active::after {
+    content:"Now for $29";
+}
